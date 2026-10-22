@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>QUIZ AMBIENTAL: QUAL É A SUA ATITUDE?</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="caixa-principal">
+    <header class="cabecalho">
+      <p class="subtitulo">PEQUENAS ATITUDES, GRANDES MUDANÇAS</p>
+      <h1>Suas escolhas transformam o planeta</h1>
+      <p class="introducao">
+   Cada atitude conta! Descubra como suas escolhas do dia a dia podem fazer a diferença na preservação do meio ambiente e na construção de um futuro mais sustentável.”
+      </p>
+    </header>
+
+    <div class="progresso">
+      <div class="progresso-info">
+        <span id="numero-pergunta">Pergunta 1 de 5</span>
+        <span id="porcentagem">20%</span>
+      </div>
+      <div class="barra-progresso">
+        <div class="barra-progresso-preenchida"></div>
+      </div>
+    </div>
+
+    <section class="conteudo-jogo">
+      <p class="etiqueta">SUA ESCOLHA</p>
+
+      <h2 class="caixa-perguntas"></h2>
+
+      <div class="caixa-alternativas"></div>
+
+      <div class="caixa-feedback" hidden aria-live="polite">
+        <p class="feedback-etiqueta">REFLITA SOBRE SUA ESCOLHA</p>
+        <p class="texto-feedback"></p>
+        <button class="botao-proxima">Próxima pergunta →</button>
+      </div>
+    </section>
+
+    <section class="caixa-resultado" hidden aria-live="polite">
+      <p class="subtitulo">SUA JORNADA TERMINOU</p>
+      <h2>O futuro começa com você.</h2>
+      <p class="texto-resultado"></p>
+
+      <div class="resumo-escolhas"></div>
+
+      <button class="botao-reiniciar">Jogar novamente ↻</button>
+    </section>
+
+    <footer>
+      <span>Cuidar do meio ambiente é cuidar do nosso futuro</span>
+      <span>•</span>
+      <span>O planeta precisa de atitudes, não apenas de palavras</span>
+    </footer>
+  </main>
+</body>
+</html>
+
+
+
